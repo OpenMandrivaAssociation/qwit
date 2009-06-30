@@ -9,6 +9,7 @@ Source0: http://qwit.googlecode.com/files/qwit-r154.tar.bz2
 Patch0: qwit-r154-cmakefile.patch 
 BuildRequires: qt4-devel
 BuildRequires: cmake
+BuildRequires: automoc4
 BuildRoot: %{_tmppath}/{%name}-buildroot
 
 %description
