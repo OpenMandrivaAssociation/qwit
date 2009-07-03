@@ -1,11 +1,12 @@
 Name: qwit
-Version: r154
-Release: %mkrel 3
+Version: 0.9
+Release: %mkrel 1
+Epoch: 1
 URL: http://code.google.com/p/qwit/
 Summary: Qwit is a simple Qt4-based client for Twitter
 License: GPLv3+
 Group: Networking/Instant messaging
-Source0: http://qwit.googlecode.com/files/qwit-r154.tar.bz2
+Source0: http://qwit.googlecode.com/files/%{name}-%{version}-src.tar.bz2
 Patch0: qwit-r154-cmakefile.patch 
 BuildRequires: qt4-devel
 BuildRequires: cmake
