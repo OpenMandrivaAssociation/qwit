@@ -43,3 +43,19 @@ rm -rf %{buildroot}
 rm -rf %{buildroot}
 
 
+
+
+%changelog
+* Mon Oct 26 2009 Juan Luis Baptiste <juancho@mandriva.org> 1:0.10-1mdv2010.0
++ Revision: 459320
+- Updated to 0.10 to fix bug #54890. Also removed Patch0 as it is no longer needed.
+
+* Fri Jul 03 2009 Helio Chissini de Castro <helio@mandriva.com> 1:0.9-1mdv2010.0
++ Revision: 391932
+- New upstream version
+
+* Tue Jun 30 2009 Helio Chissini de Castro <helio@mandriva.com> r154-3mdv2010.0
++ Revision: 391073
+- imported package qwit
+
+
