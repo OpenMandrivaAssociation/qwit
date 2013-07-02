@@ -1,6 +1,6 @@
 Name: qwit
 Version: 0.10
-Release: %mkrel 1
+Release: 2
 Epoch: 1
 URL: http://code.google.com/p/qwit/
 Summary: Simple Qt4-based client for Twitter
@@ -11,13 +11,11 @@ Source0: http://qwit.googlecode.com/files/%{name}-%{version}-src.tar.bz2
 BuildRequires: qt4-devel
 BuildRequires: cmake
 BuildRequires: automoc4
-BuildRoot: %{_tmppath}/{%name}-buildroot
 
 %description
 This is a crossplatform twitter client writen in Qt4, it depends only on Qt4
 
 %files
-%defattr(-,root,root)
 %doc AUTHORS INSTALL README
 %_datadir/applications/qwit.desktop
 %_iconsdir/qwit.png
@@ -36,11 +34,9 @@ This is a crossplatform twitter client writen in Qt4, it depends only on Qt4
 %make
 
 %install
-rm -rf %{buildroot}
 %makeinstall_std -C build
 
 %clean
-rm -rf %{buildroot}
 
 
 
