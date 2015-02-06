@@ -1,6 +1,6 @@
 Name: qwit
 Version: 0.10
-Release: 2
+Release: 3
 Epoch: 1
 URL: http://code.google.com/p/qwit/
 Summary: Simple Qt4-based client for Twitter
