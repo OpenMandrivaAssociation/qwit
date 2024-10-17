@@ -2,7 +2,7 @@ Name: qwit
 Version: 0.10
 Release: 3
 Epoch: 1
-URL: http://code.google.com/p/qwit/
+URL: https://code.google.com/p/qwit/
 Summary: Simple Qt4-based client for Twitter
 License: GPLv3+
 Group: Networking/Instant messaging
